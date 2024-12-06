@@ -1,5 +1,7 @@
 package frc.robot;
 
+import edu.wpi.first.networktables.PubSub;
+
 public final class Constants {
    // Motor constants
    public static final int FL_MOTOR_CHANNEL = 2;
@@ -23,4 +25,26 @@ public final class Constants {
    public static final double Y_SPEED_MULTIPLIER = .75;
    public static final double Z_SPEED_MULTIPLIER = .75;
    public static final double STOP_SPEED = 0.0;
+
+   //Autonmous Mid Constants
+   public static final double MIDDLE_AUTO_FORWARD_TIME = 1;
+   public static final double MIDDLE_AUTO_FORWARD_SPEED = .25;
+
+   //Auto Rite Constants
+   public static final double RIGHT_AUTO_TURN_SPEED = .25;
+   public static final double RIGHT_AUTO_TURN_TIME = 3;
+
+   public static final double RIGHT_AUTO_FORWARD_PAUSE_TIME = 1;
+
+   public static final double RIGHT_AUTO_FORWARD_SPEED = .25;
+   public static final double RIGHT_AUTO_FORWARD_TIME = 2;
+
+   //Auto lef constants
+   public static final double LEFT_AUTO_TURN_SPEED = .25;
+   public static final double LEFT_AUTO_TURN_TIME = 2;
+
+   public static final double LEFT_AUTO_FORWARD_PAUSE_TIME =2;
+   
+   public static final double LEFT_AUTO_FORWARD_SPEED=.5;
+   public static final double LEFT_AUTO_FORWARD_TIME = 1;
 }
